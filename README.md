@@ -1,5 +1,5 @@
 # Lied-agenda
-Projeto criado em python utilizando Django e Djanro REST framework
+Projeto criado em Python utilizando Django e Djanro REST framework. Tal atividade tem como objetivo conhecer melhor a linguagem Python e os frameworks Django e Django REST. Já que outros projetos do Laboratório de Informática na Educação (LIED) trabalham com essas tecnologias.
 
 ### Instruções para rodar o projeto
 
