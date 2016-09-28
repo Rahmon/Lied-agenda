@@ -1,0 +1,34 @@
+{% load staticfiles %}
+<html>
+    <head>
+        <title>Agenda</title>
+        <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+    </head>
+    <body>
+        <div>
+            <h2>
+                <a href="">
+                    Detalhes do contato
+                </a>
+            </h2>
+        </div>
+
+        <div>
+            <p>
+                <strong>Nome:</strong> {{ contato.nome }}
+                <br>
+                <strong>Apelido:</strong> {{ contato.apelido }}
+                <br>
+                <strong>Idade:</strong> {{ contato.idade }}  
+                <br>
+                <strong>Telefone:</strong> {{ contato.telefone }}  
+            </p>
+            <p>
+                <a href="/site">Voltar</a>
+            </p>
+        </div>
+        <script src="{% static 'js/jquery.min.js' %}"></script>
+        <script src="{% static 'js/bootstrap.min.js' %}"></script>
+        
+    </body>
+</html>
